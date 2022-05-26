@@ -22,8 +22,26 @@
 	float: left;
   padding: 15px;
 }
-h1{
+
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
   font-family: Arial;
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
 }
 
 ul {
@@ -31,11 +49,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#21A179;
+  background-color:#FBC30A;
 }
 
-li {
-  float: left;
+li{
+  display:inline-block;
 }
 
 li a {
@@ -48,5 +66,20 @@ li a {
 }
 
 li a:hover {
-  background-color: #9097C0 ;
+  background-color: #FBC30A ;
+}
+
+.centered
+{
+  margin: auto;
+  width: 100%;
+  
+  background-color:#FBC30A;
+  padding: 10px;
+  text-align: center;
+}
+
+.wrapper-menu
+{
+  background-color:#FBC30A;
 }
