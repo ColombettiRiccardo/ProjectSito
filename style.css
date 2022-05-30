@@ -13,7 +13,11 @@
 	float: left;
   padding: 15px;
 }
-
+.asd{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  text-align: center;
+}
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
