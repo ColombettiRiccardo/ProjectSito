@@ -1,5 +1,3 @@
-/*#9097C0   <----- weird purple  |||  green -----> #21A179*/
-
 
 * {
 	box-sizing: border-box;
@@ -82,7 +80,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#FBC30A;
+  background-color: #FBC30A;
 }
 
 li{
